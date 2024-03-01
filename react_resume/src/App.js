@@ -1,12 +1,19 @@
 import Navbar from "./Components/Navbar";
 import React from 'react';
 import './App.css';
-export default function App(){
+import { BrowserRouter as Router, Routes, Route }
+        from "react-router-dom";
+function App(){
     return(
-        <div className="app">
-           <Navbar />
-        </div>
+        <Router>
+            <Navbar/>
+            <Routes>
+                <Route path='/' />
+            </Routes>
+        </Router> 
+
     )
   
 }
 
+export default App;
