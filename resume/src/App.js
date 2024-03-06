@@ -8,7 +8,7 @@ function App(){
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='/' />
+          <Route path='/home' />
         </Routes>
       </Router>
     )
