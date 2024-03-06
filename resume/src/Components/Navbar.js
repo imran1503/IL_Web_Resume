@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import { Button } from './Button';
+import './Navbar.css'
 function Navbar() {
     const [click,setClick] = useState(false);
     const HandleClick = () => setClick(!click);
@@ -20,27 +21,27 @@ function Navbar() {
     return (
         <nav className='navbar'>
             <div className='navbar-container'>
-                <a to='/' className='navbar-container'>
-                    Imran Latif <i className="fa-solid fa-crown"></i>
-                </a>
+                <Link to='/' className='navbar-container'>
+                <i className="fa-solid fa-crown"></i>Imran Latif
+                </Link>
                 <div className='menu-icon'  onClick={HandleClick}  >
                     <i className={click ? "fas fa-times":"fa-solid fa-bars"}></i>
                 </div>
                 <ul className="">
                     <li className='nav-item'>
-                        <a to='/Home' className="nav-links" onClick={closeMobileMenu}>
+                        <Link to='/Home' className="nav-links" onClick={closeMobileMenu}>
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li className='nav-item'>
-                        <a to='/aboutMe' className="nav-links" onClick={closeMobileMenu} >
+                        <Link to='/aboutMe' className="nav-links" onClick={closeMobileMenu} >
                             About me
-                        </a>
+                        </Link>
                     </li>
                     <li className='nav-item'>
-                        <a to='/experience' className="nav-links" onClick={closeMobileMenu} >
+                        <Link to='/experience' className="nav-links" onClick={closeMobileMenu} >
                             Experience
-                        </a>
+                        </Link>
                     </li>
                 </ul>
                 {button && <Button buttonStyle={'btn--outline'}>TEST BUTTON</Button>}
