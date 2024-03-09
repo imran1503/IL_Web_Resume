@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from './Button';
 import './Button.css'
 import './HeroSection.css'
 import '../App.css'
@@ -7,19 +6,12 @@ function HeroSection(){
     return(
         <div className='hero-container'>
             {/* if you want a video: <video src='' autoPlay loop muted/> */}
-            <h1>ABOUT ME</h1>
-            <div className='hero-btns'>
-                <Button className='hero-btn' buttonSize='btn--large' buttonStyle='btn--outline'>
-                    Outline Button Example
-                </Button>
-                <Button className='hero-btn' buttonSize='btn--large' buttonStyle='btn--primary'>
-                    Primary Button Example
-                </Button>
+            <div className="banner-text">
+                <h1 className='headline'>IMRAN LATIF</h1>
+                <h3 className='subheadline'>New software graduate unleashing the potential of tomorrow's tech leaders</h3>
+                <h3 className='subheadline'>Where passion meets proficiency in software engineering.</h3>
             </div>
         </div>
     );
-
 }
-
-
 export default HeroSection;

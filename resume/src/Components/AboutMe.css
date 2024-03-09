@@ -1,0 +1,42 @@
+.aboutMe{
+    background-image: url('../../public/images/aboutMeBackground.jpeg');
+    background-size: 100% 100%;
+}
+
+
+.titleRow > h1{
+    padding-left: 20%;
+    justify-self: center;
+    color:  rgb(7, 31, 3);
+    font-size: 40px;
+
+}
+
+
+.separator {
+  height: 3px;
+  background-color: rgb(25, 102, 9);
+  border: none;
+  width: 100%;
+
+}
+
+.descRow{
+    width:100%;
+
+    position: static;
+
+}
+.AMCell{
+
+    width: 60%;
+    padding-left: 20%;
+    position: static;
+    text-shadow: 1px;
+}
+
+.descRowImg{
+    max-width: 50%;
+    max-height:50%;
+    justify-content: center;
+}

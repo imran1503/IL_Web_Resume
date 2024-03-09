@@ -17,10 +17,11 @@
     margin-top: -100px;
 }
 
-.hero-container > p{
+.subheadline {
     color: #fff;
     font-size: 32px;
-    margin-top: 8px;
+    margin-top: -1px;
+
 }
 
 .hero-btns {
@@ -31,6 +32,10 @@
     margin: 6px;
 }
 
+.headline{
+    font: 90px/1.1em 'opensans-bold', sans-serif;
+    color: #fff;
+}
 @media screen and (max-width: 960px){
     .hero-container > h1{
         font-size:  70px;
@@ -55,4 +60,6 @@
     .btn {
         width: 100%;
     }
+
+
 }
