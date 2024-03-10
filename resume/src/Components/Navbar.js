@@ -61,15 +61,31 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/temp'
+                to='https://github.com/imran1503'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                TEMP
+                <i class="fa fa-github" aria-hidden="true"></i>
               </Link>
             </li>
-
-
+            <li className='nav-item'>
+              <Link
+                to='https://www.linkedin.com/in/imranalatif1503/'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='https://artemis1503.itch.io/'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                <i class="fa-brands fa-itch-io"></i>
+              </Link>
+            </li>
           </ul>
           {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </div>
