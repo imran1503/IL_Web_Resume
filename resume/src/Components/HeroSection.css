@@ -1,7 +1,8 @@
 .hero-container{
     /* where you put your image */
-    background: url('../../public/images/heroBG.jpg') center center/cover no-repeat   ;
-    opacity: .95;
+    background: url('../../public/images/HeroBGTest.png') center center/cover no-repeat   ;
+    background-color: antiquewhite;
+
     height: 100vh;
     width: 100%;
     display: flex;
@@ -18,9 +19,10 @@
 
 }
 .headline{
-    font: 90px/1.1em 'Times New Roman', sans-serif;
+    font: 90px/1.1em Spectral, sans-serif;
     color: black;
-    margin-top: 320px;
+    margin-top: 110px;
+    margin-left: 0%;
     margin-bottom: -6px;
 
 }
@@ -32,16 +34,27 @@
     font-family: Tangerine, cursive;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 60px;
+    margin-left: 0%;
+}
 
+.subheadline-btn {
+    color: black;
+    font-family: Spectral, cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
 
 }
 
 .hero-btns {
+
     margin-top: 32px;
 }
 
 .hero-btns .btn {
     margin: 6px;
+    margin-left: 0%;
 }
 
 
