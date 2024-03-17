@@ -1,15 +1,12 @@
-import '../../App.css'
-import HeroSection from '../HeroSection'
-import AboutMe from '../AboutMe'
 import React from 'react';
+import '../Timeline.css'
+import { Button } from '../Button';
+import Timeline from '../Timeline';
+
 function Experience(){
     return(
-        <div className='HeroSection-Experience'>
-
-        </div>
+        <Timeline/>
     );
-
-
 }
 
 export default Experience;

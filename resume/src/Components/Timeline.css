@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.container{
+    padding: 10px 15px;
+    position: relative;
+    width: 40%;
+    background: rgba(0,0,0,0.3);
+}
+
+.text-box{
+    padding: 20px 30px ;
+    background: #7f3086;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15 px ;
+}
+
+.Button .hero-btns{
+    text-size: 10px;
+}

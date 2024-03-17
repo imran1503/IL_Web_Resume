@@ -16,7 +16,7 @@ function HeroSection(){
                             Where passion meets proficiency in software engineering.
                     </strong>
                 </h3>
-                <Button className='hero-btns' buttonStyle={"btn--outline"} MyLink={
+                <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn--medium'} MyLink={
                     "https://drive.google.com/file/d/1IvEfbMABQE1N9YbAoIp5nBFwhMw95CRG/view?usp=drive_link"
                     }
                 >
