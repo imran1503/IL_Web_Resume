@@ -13,7 +13,7 @@
 .container{
     padding: 10px 15px;
     position: relative;
-    width: 50%;
+    width: 40%;
     background: rgba(0,0,0,0.3);
 }
 
@@ -25,20 +25,6 @@
     font-size: 15 px ;
 }
 
-.right-container{
-    left:50%;
-
-}
-
-.left-container{
-    left:0;
-}
-
-.container img, i{
-    position: absolute;
-    width: 40px;
-    border-radius: 50%;
-    right: -20px;
-    top: 32px;
-    z-index: 10;
+.Button .hero-btns{
+    text-size: 10px;
 }
