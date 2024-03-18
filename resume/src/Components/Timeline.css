@@ -13,7 +13,7 @@
 .container{
     padding: 10px 15px;
     position: relative;
-    width: 40%;
+    width: 50%;
     background: rgba(0,0,0,0.3);
 }
 
@@ -25,6 +25,20 @@
     font-size: 15 px ;
 }
 
-.Button .hero-btns{
-    text-size: 10px;
+.right-container{
+    left:50%;
+
+}
+
+.left-container{
+    left:0;
+}
+
+.container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
 }
