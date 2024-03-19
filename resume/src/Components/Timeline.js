@@ -10,7 +10,8 @@ function Timeline(){
             <div className='Timeline'>
                 <p><br/><br/><br/></p>
                 <div className='container left-container first-container'>
-                    {/* <img src={process.env.PUBLIC_URL + '../../public/images/MECLogo.png'} alt-text='mec' alt='mec' /> */}
+                    <img src={process.env.PUBLIC_URL + '/images/MECLogo.png'} alt='mec' />
+
                     <div className='text-box'>
 
                         <h2>Company 1 </h2>
@@ -25,6 +26,7 @@ function Timeline(){
                     </div>
                 </div>
                 <div className='container right-container'>
+                    <img src={process.env.PUBLIC_URL + '/images/MECLogo.png'} alt='mec' />
                     <div className='text-box'>
                         <h2>Company 2 </h2>
                         <small>Date range Here</small>
@@ -43,7 +45,7 @@ function Timeline(){
                     {/* <img src={process.env.PUBLIC_URL + '../../public/images/MECLogo.png'} alt-text='mec' alt='mec' /> */}
                     <div className='text-box'>
 
-                        <h2>Company 1 </h2>
+                        <h2>Company 3 </h2>
                         <small>Date range Here</small>
                         <p>Description here</p>
                         <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
@@ -56,7 +58,7 @@ function Timeline(){
                 </div>
                 <div className='container right-container'>
                     <div className='text-box'>
-                        <h2>Company 2 </h2>
+                        <h2>Company 4 </h2>
                         <small>Date range Here</small>
                         <p>Description here</p>
                         <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
@@ -73,7 +75,7 @@ function Timeline(){
                     {/* <img src={process.env.PUBLIC_URL + '../../public/images/MECLogo.png'} alt-text='mec' alt='mec' /> */}
                     <div className='text-box'>
 
-                        <h2>Company 1 </h2>
+                        <h2>Company 5 </h2>
                         <small>Date range Here</small>
                         <p>Description here</p>
                         <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
@@ -86,7 +88,7 @@ function Timeline(){
                 </div>
                 <div className='container right-container'>
                     <div className='text-box'>
-                        <h2>Company 2 </h2>
+                        <h2>Company 6 </h2>
                         <small>Date range Here</small>
                         <p>Description here</p>
                         <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
