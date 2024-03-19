@@ -5,7 +5,10 @@ import Timeline from '../Timeline';
 
 function Experience(){
     return(
-        <Timeline/>
+        <div className='Exp'>
+            <Timeline/>
+        </div>
+
     );
 }
 

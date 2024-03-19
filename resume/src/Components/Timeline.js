@@ -8,7 +8,8 @@ function Timeline(){
         <div className='body'>
 
             <div className='Timeline'>
-                <div className='container left-container'>
+                <p><br/><br/><br/></p>
+                <div className='container left-container first-container'>
                     {/* <img src={process.env.PUBLIC_URL + '../../public/images/MECLogo.png'} alt-text='mec' alt='mec' /> */}
                     <div className='text-box'>
 
