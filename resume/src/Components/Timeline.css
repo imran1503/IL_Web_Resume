@@ -1,5 +1,5 @@
 :root {
-    --primary: #21a1cc; /* COLOUR OF BOXES*/
+    --primary: #ffffff; /* COLOUR OF BOXES*/
     --BGC: rgb(255,255,255);
     --BGI: url('../../public/images/expBGTest.jpg')
   }
@@ -10,8 +10,8 @@
     box-sizing: border-box;
 }
 .body{
-    background: var(--BGC);
-   /* background: var(--BGI) center center/cover no-repeat   ;*/
+    /*background: var(--BGC);*/
+    background: var(--BGI) center center/cover no-repeat   ;
 
 }
 .Timeline{
@@ -31,6 +31,15 @@
     opacity: 1;
 }
 
+.left-container Button{
+    margin-left: 25%;
+    text-decoration:underline;
+}
+
+.right-container Button{
+    margin-left: 30%;
+    text-decoration:underline;
+}
 
 .container:nth-child(1){animation-delay: 0s;}
 .container:nth-child(2){animation-delay: 1s;}
@@ -163,6 +172,15 @@
         border-right: 15px solid var(--primary);
         border-left: 0;
         left: -15px;
+    }
+    .left-container Button{
+        margin-left: 0%;
+        text-decoration:underline;
+    }
+
+    .right-container Button{
+        margin-left:  0%;
+        text-decoration:underline;
     }
 
 
