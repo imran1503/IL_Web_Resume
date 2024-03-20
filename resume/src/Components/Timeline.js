@@ -2,21 +2,18 @@ import React from 'react';
 import './Timeline.css'
 import { Button } from './Button';
 
-
 function Timeline(){
     return(
         <div className='body'>
-
             <div className='Timeline'>
                 <p><br/><br/><br/></p>
                 <div className='container left-container first-container'>
                     <img src={process.env.PUBLIC_URL + '/images/MECLogo.png'} alt='mec' />
-
                     <div className='text-box'>
-
                         <h2>Company 1 </h2>
                         <small>Date range Here</small>
                         <p>Description here</p>
+                        <span className='leftSpanArrow'></span>
                         <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
                             "https://drive.google.com/file/d/1IvEfbMABQE1N9YbAoIp5nBFwhMw95CRG/view?usp=drive_link"
                             }
@@ -31,23 +28,7 @@ function Timeline(){
                         <h2>Company 2 </h2>
                         <small>Date range Here</small>
                         <p>Description here</p>
-                        <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
-                            "https://drive.google.com/file/d/1IvEfbMABQE1N9YbAoIp5nBFwhMw95CRG/view?usp=drive_link"
-                            }
-                        >
-                            Click for more info!
-                        </Button>
-
-                    </div>
-
-                </div>
-                <div className='container left-container'>
-                    {/* <img src={process.env.PUBLIC_URL + '../../public/images/MECLogo.png'} alt-text='mec' alt='mec' /> */}
-                    <div className='text-box'>
-
-                        <h2>Company 3 </h2>
-                        <small>Date range Here</small>
-                        <p>Description here</p>
+                        <span className='rightSpanArrow'></span>
                         <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
                             "https://drive.google.com/file/d/1IvEfbMABQE1N9YbAoIp5nBFwhMw95CRG/view?usp=drive_link"
                             }
@@ -56,28 +37,14 @@ function Timeline(){
                         </Button>
                     </div>
                 </div>
-                <div className='container right-container'>
+                <div className='container left-container first-container'>
+                    <img src={process.env.PUBLIC_URL + '/images/MECLogo.png'} alt='mec' />
                     <div className='text-box'>
-                        <h2>Company 4 </h2>
+                        <h2>Company 1 </h2>
                         <small>Date range Here</small>
                         <p>Description here</p>
-                        <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
-                            "https://drive.google.com/file/d/1IvEfbMABQE1N9YbAoIp5nBFwhMw95CRG/view?usp=drive_link"
-                            }
-                        >
-                            Click for more info!
-                        </Button>
+                        <span className='leftSpanArrow'></span>
 
-                    </div>
-
-                </div>
-                <div className='container left-container'>
-                    {/* <img src={process.env.PUBLIC_URL + '../../public/images/MECLogo.png'} alt-text='mec' alt='mec' /> */}
-                    <div className='text-box'>
-
-                        <h2>Company 5 </h2>
-                        <small>Date range Here</small>
-                        <p>Description here</p>
                         <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
                             "https://drive.google.com/file/d/1IvEfbMABQE1N9YbAoIp5nBFwhMw95CRG/view?usp=drive_link"
                             }
@@ -87,19 +54,52 @@ function Timeline(){
                     </div>
                 </div>
                 <div className='container right-container'>
+                    <img src={process.env.PUBLIC_URL + '/images/MECLogo.png'} alt='mec' />
                     <div className='text-box'>
-                        <h2>Company 6 </h2>
+                        <h2>Company 2 </h2>
                         <small>Date range Here</small>
                         <p>Description here</p>
+                        <span className='rightSpanArrow'></span>
                         <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
                             "https://drive.google.com/file/d/1IvEfbMABQE1N9YbAoIp5nBFwhMw95CRG/view?usp=drive_link"
                             }
                         >
                             Click for more info!
                         </Button>
-
                     </div>
+                </div>
+                <div className='container left-container first-container'>
+                    <img src={process.env.PUBLIC_URL + '/images/MECLogo.png'} alt='mec' />
 
+                    <div className='text-box'>
+
+                        <h2>Company 1 </h2>
+                        <small>Date range Here</small>
+                        <p>Description here</p>
+                        <span className='leftSpanArrow'></span>
+
+                        <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
+                            "https://drive.google.com/file/d/1IvEfbMABQE1N9YbAoIp5nBFwhMw95CRG/view?usp=drive_link"
+                            }
+                        >
+                            Click for more info!
+                        </Button>
+                    </div>
+                </div>
+                <div className='container right-container'>
+                    <img src={process.env.PUBLIC_URL + '/images/MECLogo.png'} alt='mec' />
+                    <div className='text-box'>
+                        <h2>Company 2 </h2>
+                        <small>Date range Here</small>
+                        <p>Description here</p>
+                        <span className='rightSpanArrow'></span>
+                        <Button className='hero-btns' buttonStyle={"btn--outline"} buttonSize={'btn-small'} MyLink={
+                            "https://drive.google.com/file/d/1IvEfbMABQE1N9YbAoIp5nBFwhMw95CRG/view?usp=drive_link"
+                            }
+                        >
+                            Click for more info!
+                        </Button>
+                    </div>
                 </div>
             </div>
         </div>
