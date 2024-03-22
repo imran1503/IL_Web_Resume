@@ -170,7 +170,7 @@ function Timeline(){
 
                 {/* FIRST ROBOTICS---------------------------------------------------------------------------------*/}
                 <div className='container right-container'>
-                    <img src={process.env.PUBLIC_URL + '/images/CarletonLogo.jpg'} alt='mec' />
+                    <img src={process.env.PUBLIC_URL + '/images/MMRLogo.png'} alt='mec' />
                     <div className='text-box'>
                         <h2><i class="fa-solid fa-graduation-cap"></i>NASA FIRST ROBOTICS / MM ROBINSON HIGH SCHOOL </h2>
                         <small>2013 - 2017</small>
