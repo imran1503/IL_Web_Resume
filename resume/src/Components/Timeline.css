@@ -29,17 +29,18 @@
 
     animation: movedown 1s linear forwards;
     opacity: 1;
+
 }
 
-.left-container Button{
-    margin-left: 25%;
+.container Button{
+
     text-decoration:underline;
+    display: flex;
+    align-self: center;
+    padding-left: 27%;
+
 }
 
-.right-container Button{
-    margin-left: 30%;
-    text-decoration:underline;
-}
 
 .container:nth-child(1){animation-delay: 0s;}
 .container:nth-child(2){animation-delay: 1s;}
