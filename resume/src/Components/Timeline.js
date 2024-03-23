@@ -100,6 +100,8 @@ function Timeline(){
                         <h2><i class="fa-solid fa-briefcase"></i>TIPTOP TAILORS </h2>
                         <small>November 2021 - January 2023</small>
                         <p>
+                        Served customers in a bustling retail environment by providing attentive assistance and facilitating sales transactions, resulting in increased customer satisfaction and sales revenue.
+                        Applied strong communication and problem-solving skills to efficiently manage inventory and promptly resolve customer inquiries, contributing to streamlined store operations and positive customer experiences.<br/><br/>
                             ❖ Maintained inventory records.<br/>
                             ❖ Opened and closed the store.<br/>
                             ❖ Interacted with customers by answering their questions and addressing their needs, showing my ability to prioritize customer satisfaction.</p>
@@ -117,7 +119,7 @@ function Timeline(){
                         <h2><i class="fa-solid fa-briefcase"></i>LAURIER OPTICAL</h2>
                         <small>August 2022 - October 2022</small>
                         <p>
-                        Worked with the optometrist to admit patients to them after performing precursory checks, and then sell them a pair of prescription glasses after their appointment.<br/>
+                        Worked with the optometrist to admit patients to them after performing precursory checks, and then sell them a pair of prescription glasses after their appointment.<br/><br/>
                         ❖ Offered valuable insights to patients regarding beneficial modifications to available glasses, tailored to their lifestyle requirements.<br/>
                         ❖ Conducted repairs for walk-in cases for their glasses.<br/>
                         ❖ Assumed responsibility for closing the store at the end of business hours.<br/>
@@ -137,7 +139,7 @@ function Timeline(){
                         <small>January 2022 - April 2022</small>
                         <p>
                             <strong>SCHOOL PROJECT: Mini Monkey Survey</strong><br/>
-                            Collaborated with a team to create a web application where users can create, answer, and analyse survey data.<br/>
+                            Collaborated with a team to create a web application where users can create, answer, and analyse survey data.<br/><br/>
                             ❖	Used Heroku for application deployment and monitoring, to efficiently troubleshoot the application.<br/>
                             ❖	Used popular technologies such as React, NodeJS and MongoDB.<br/>
                             ❖	Created the backend histogram statistics page based on the answers provided. <br/>
@@ -161,7 +163,7 @@ function Timeline(){
                         <small>January 2021 - April 2021</small>
                         <p>
                             <strong>SCHOOL PROJECT: Real Time Elevator</strong><br/>
-                            Led a team in designing and developing a real-time elevator system in Java.<br/>
+                            Led a team in designing and developing a real-time elevator system in Java.<br/><br/>
                             ❖	Designed the real-time elevator system, including architectural decisions, data structures, and component interactions.<br/>
                             ❖	Reorganized and delegated assignments to compensate for reduced labor.<br/>
                             ❖	Created the UML diagrams, and scheduling meetings.<br/>
@@ -185,7 +187,7 @@ function Timeline(){
                         <small>2013 - 2017</small>
                         <p>
                             <strong>SCHOOL COURSE: FIRST Robotics Team 2200</strong><br/>
-                            This extracurricular program had a goal of designing then creating a robot to compete in a game within 6 weeks. Led team in designing robot’s 3D models based on stringent rulesets.<br/>
+                            This extracurricular program had a goal of designing then creating a robot to compete in a game within 6 weeks. Led team in designing robot’s 3D models based on stringent rulesets.<br/><br/>
                             ❖ Leader of the design team in grade 12.<br/>
                             ❖ Worked with Autodesk Inventor to 3D model our parts and create drawings to create the parts.<br/>
                             ❖ Created CNC machine design drawings to create complicated parts.<br/>
