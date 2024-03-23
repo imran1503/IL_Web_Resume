@@ -98,8 +98,11 @@ function Timeline(){
                     <img src={process.env.PUBLIC_URL + '/images/TTLogo.png'} alt='mec' />
                     <div className='text-box'>
                         <h2><i class="fa-solid fa-briefcase"></i>TIPTOP TAILORS </h2>
-                        <small>Date range Here</small>
-                        <p>Description here</p>
+                        <small>November 2021 - January 2023</small>
+                        <p>
+                            ❖ Maintained inventory records.<br/>
+                            ❖ Opened and closed the store.<br/>
+                            ❖ Interacted with customers by answering their questions and addressing their needs, showing my ability to prioritize customer satisfaction.</p>
                         <span className='rightSpanArrow'></span>
 
                     </div>
@@ -112,8 +115,14 @@ function Timeline(){
                     <div className='text-box'>
 
                         <h2><i class="fa-solid fa-briefcase"></i>LAURIER OPTICAL</h2>
-                        <small>Date range Here</small>
-                        <p>Description here</p>
+                        <small>August 2022 - October 2022</small>
+                        <p>
+                        Worked with the optometrist to admit patients to them after performing precursory checks, and then sell them a pair of prescription glasses after their appointment.<br/>
+                        ❖ Offered valuable insights to patients regarding beneficial modifications to available glasses, tailored to their lifestyle requirements.<br/>
+                        ❖ Conducted repairs for walk-in cases for their glasses.<br/>
+                        ❖ Assumed responsibility for closing the store at the end of business hours.<br/>
+                        ❖ Demonstrated meticulous attention to detail by managing and organizing daily paper files for the optometrist.<br/>
+                        </p>
                         <span className='leftSpanArrow'></span>
 
 
@@ -168,21 +177,26 @@ function Timeline(){
                     </div>
                 </div>
 
-                {/* FIRST ROBOTICS---------------------------------------------------------------------------------*/}
+                {/* FIRST ROBOTICS-------------------------------------------------------------------------------------*/}
                 <div className='container right-container'>
                     <img src={process.env.PUBLIC_URL + '/images/MMRLogo.png'} alt='mec' />
                     <div className='text-box'>
                         <h2><i class="fa-solid fa-graduation-cap"></i>NASA FIRST ROBOTICS / MM ROBINSON HIGH SCHOOL </h2>
                         <small>2013 - 2017</small>
                         <p>
-                            <strong>SCHOOL COURSE: Mini Monkey Survey</strong><br/>
-
+                            <strong>SCHOOL COURSE: FIRST Robotics Team 2200</strong><br/>
+                            This extracurricular program had a goal of designing then creating a robot to compete in a game within 6 weeks. Led team in designing robot’s 3D models based on stringent rulesets.<br/>
+                            ❖ Leader of the design team in grade 12.<br/>
+                            ❖ Worked with Autodesk Inventor to 3D model our parts and create drawings to create the parts.<br/>
+                            ❖ Created CNC machine design drawings to create complicated parts.<br/>
+                            ❖ Team received the creativity award, industrial design award and engineering excellence award in 2017.<br/>
+                            ❖ Presented the designs to the entire team and other FIRST officials.<br/>
+                            ❖ Collaborated with cross-functional teams to align on the robot's design, ensuring consistency and accuracy.<br/>
+                            ❖ Liaised with machinists to guarantee parts were manufactured according to design specifications.<br/>
 
                         </p>
                         <span className='rightSpanArrow'></span>
-                        <Button className='hero-btns' buttonStyle={"btn--primary"} buttonSize={'btn--large'} MyLink={
-                            "https://github.com/EveningStarlight/SYSC_4806_Project"
-                            }
+                        <Button className='hero-btns' buttonStyle={"btn--primary"} buttonSize={'btn--large'} MyLink={"https://mmrambotics.com/seasons/"}
                         >
                              Click for more info! <i class="fa-solid fa-link"></i>
                         </Button>
