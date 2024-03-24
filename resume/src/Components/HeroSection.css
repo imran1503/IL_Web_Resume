@@ -1,7 +1,6 @@
 .hero-container{
     /* where you put your image */
-    background: url('../../public/images/HeroBGTest.png') center center/cover no-repeat   ;
-    background-color: antiquewhite;
+    background: url('../../public/images/heroBG3.jpg') center center/cover no-repeat   ;
     height: 100vh;
     width: 100%;
     display: flex;

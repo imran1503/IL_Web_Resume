@@ -8,7 +8,7 @@ function Timeline(){
             <div className='Timeline'>
                 <p><br/><br/><br/></p>
 
-                {/* THE BEAT REVIVAL TEAM -----------------------------------------------------------------------------*/}
+                {/* THE BEAT REVIVAL TEAM ------------------------------------------*/}
                 <div className='container left-container first-container'>
                     <img src={process.env.PUBLIC_URL + '/images/MECLogo.png'} alt='mec' />
                     <div className='text-box'>
@@ -17,7 +17,7 @@ function Timeline(){
                         <p>
                             <strong>OPEN SOURCE PROJECT</strong><br/>
                             This project aims to bring back the online functionality of Mirror's Edge: Catalyst through the reverse engineering of EA/DICE's server software.<br/>
-                            A fan driven project to restore online services to the game Mirrors Edge Catalyst from EA.<br/>
+                            A fan driven project to restore online services to the game Mirrors Edge Catalyst from EA.<br/><br/>
                             &emsp;❖ Collected network packets while the game was running in before the servers were closed.<br/>
                             &emsp;❖ Editing and browsing network packets to understand how to replicate features on our own servers.<br/>
                             &emsp;❖ Planning a server to properly simulate the old functionality to work with EA’s Blaze authentication server.<br/>
@@ -33,7 +33,7 @@ function Timeline(){
                     </div>
                 </div>
 
-                {/* DECRYPTION ----------------------------------------------------------------------------------------*/}
+                {/* DECRYPTION -----------------------------------------------------*/}
                 <div className='container right-container'>
                     <img src={process.env.PUBLIC_URL + '/images/GameJamLogo.png'} alt='mec' />
                     <div className='text-box'>
@@ -41,7 +41,7 @@ function Timeline(){
                         <small>January 2024 - Febuary 2024</small>
                         <p>
                             <strong>OPEN SOURCE GAME JAM</strong><br/>
-                            Developing a compelling game jam prototype, highlighting adaptability, integration of gameplay mechanics and quick learning.<br/>
+                            Developing a compelling game jam prototype, highlighting adaptability, integration of gameplay mechanics and quick learning.<br/><br/>
                             &emsp;❖ Completed within a 2-week sprint.<br/>
                             &emsp;❖ Developed in the Godot engine using GDScript.<br/>
                             &emsp;❖ Researched existing technologies to implement in our game.<br/>
@@ -56,10 +56,10 @@ function Timeline(){
                     </div>
                 </div>
 
-                {/* UNDERGRADUATE PROJECT -----------------------------------------------------------------------------*/}
-                <div className='container left-container first-container'>
+                {/* UNDERGRADUATE PROJECT ------------------------------------------*/}
+                <div className='container left-container'>
                     <img src={process.env.PUBLIC_URL + '/images/CarletonLogo.jpg'} alt='mec' />
-                    <div className='text-box'>
+                    <div className='text-box undergraduateProject'>
                         <h2><i class="fa-solid fa-graduation-cap"></i>CARLETON UNIVERSITY </h2>
                         <small>September 2022 - April 2023</small>
                         <p>
@@ -93,7 +93,7 @@ function Timeline(){
                     </div>
                 </div>
 
-                {/* Tiptop Tailors-------------------------------------------------------------------------------------*/}
+                {/* Tiptop Tailors--------------------------------------------------*/}
                 <div className='container right-container'>
                     <img src={process.env.PUBLIC_URL + '/images/TTLogo.png'} alt='mec' />
                     <div className='text-box'>
@@ -110,7 +110,7 @@ function Timeline(){
                     </div>
                 </div>
 
-                {/* Laurier Optical------------------------------------------------------------------------------------*/}
+                {/* Laurier Optical-------------------------------------------------*/}
                 <div className='container left-container first-container'>
                     <img src={process.env.PUBLIC_URL + '/images/LOLogo.jfif'} alt='mec' />
 
@@ -131,7 +131,7 @@ function Timeline(){
                     </div>
                 </div>
 
-                {/* MINI MONKEY SURVEY---------------------------------------------------------------------------------*/}
+                {/* MINI MONKEY SURVEY----------------------------------------------*/}
                 <div className='container right-container'>
                     <img src={process.env.PUBLIC_URL + '/images/CarletonLogo.jpg'} alt='mec' />
                     <div className='text-box'>
@@ -150,12 +150,12 @@ function Timeline(){
                             "https://github.com/EveningStarlight/SYSC_4806_Project"
                             }
                         >
-                             Click for more info! <i class="fa-solid fa-link"></i>
+                            Link To Github Repo<i class="fa-solid fa-link"></i>
                         </Button>
                     </div>
                 </div>
 
-                {/* ELEVATOR PROJECT-----------------------------------------------------------------------------------*/}
+                {/* ELEVATOR PROJECT------------------------------------------------*/}
                 <div className='container left-container'>
                     <img src={process.env.PUBLIC_URL + '/images/CarletonLogo.jpg'} alt='mec' />
                     <div className='text-box'>
@@ -179,7 +179,7 @@ function Timeline(){
                     </div>
                 </div>
 
-                {/* FIRST ROBOTICS-------------------------------------------------------------------------------------*/}
+                {/* FIRST ROBOTICS--------------------------------------------------*/}
                 <div className='container right-container'>
                     <img src={process.env.PUBLIC_URL + '/images/MMRLogo.png'} alt='mec' />
                     <div className='text-box'>
