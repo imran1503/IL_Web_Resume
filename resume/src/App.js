@@ -13,6 +13,7 @@ function App(){
         <Navbar/>
         <Routes>
           <Route path='/' Component={Home}/>
+          <Route path='/IL_Web_Resume/' Component={Home}/>
           <Route path='/contact' Component={contact}/>
           <Route path='/experience' Component={Experience}/>
         </Routes>
