@@ -35,7 +35,7 @@ function aboutMe(){
                         </td>
 
                         <td>
-                            <img className="descRowImg" src ='/images/IL-Profile.png' alt='portrait alternate'/>
+                            <img className="descRowImg" src={process.env.PUBLIC_URL + '/images/IL-Profile.png'} alt='portrait alternate'/>
                         </td>
                     </tr>
                 </table>
