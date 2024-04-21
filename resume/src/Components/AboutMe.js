@@ -17,7 +17,7 @@ function aboutMe(){
                         <td className="AMCell">
                             <p>
                                 <strong>
-                                Hi I'm Imran Latif and I graduated from Carleton University in 2023 with a degree in software engineering!
+                                Hi! I'm Imran Latif and I graduated from Carleton University in 2023 with a degree in software engineering!
                                 My interests are in Back End Engineering and I love to create efficent databases and algorithms.
                                 I'm interested in all junior software engineering roles. I have been using Open Source technologies for a while network.
                                 As I transition into the professional sphere, I bring a potent combination of technical prowess, resilience, and a proactive approach to learning, making me an ideal candidate for roles that demand versatility and innovation.<br/>

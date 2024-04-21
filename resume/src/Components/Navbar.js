@@ -53,7 +53,7 @@ function Navbar() {
               </Link>
             </li>
 
-
+{/*
             <li className='nav-item'>
               <Link
                 to='/contact'
@@ -63,7 +63,7 @@ function Navbar() {
                 Contact Me
               </Link>
             </li>
-
+ */}
 
             <li className='nav-item'>
               <Link
