@@ -12,7 +12,7 @@ function Timeline(){
                 <div className='container left-container first-container'>
                     <img src={process.env.PUBLIC_URL + '/images/MECLogo.png'} alt='mec' />
                     <div className='text-box'>
-                        <h2><i class="fa-solid fa-briefcase"></i>&nbsp;THE BEAT REVIVAL PROJECT</h2>
+                        <h2><i class="fa-solid fa-briefcase"></i>THE BEAT REVIVAL PROJECT</h2>
                         <small>December 2023 - Present</small>
                         <p>
                             <strong>OPEN SOURCE PROJECT</strong><br/>
@@ -37,7 +37,7 @@ function Timeline(){
                 <div className='container right-container'>
                     <img src={process.env.PUBLIC_URL + '/images/GameJamLogo.png'} alt='mec' />
                     <div className='text-box'>
-                        <h2><i class="fa-solid fa-briefcase"></i>&nbsp;DECRYPTION </h2>
+                        <h2><i class="fa-solid fa-briefcase"></i>DECRYPTION </h2>
                         <small>January 2024 - Febuary 2024</small>
                         <p>
                             <strong>OPEN SOURCE GAME JAM</strong><br/>
@@ -60,7 +60,7 @@ function Timeline(){
                 <div className='container left-container'>
                     <img src={process.env.PUBLIC_URL + '/images/CarletonLogo.jpg'} alt='mec' />
                     <div className='text-box undergraduateProject'>
-                        <h2><i class="fa-solid fa-graduation-cap"></i>&nbsp;CARLETON UNIVERSITY </h2>
+                        <h2><i class="fa-solid fa-graduation-cap"></i>CARLETON UNIVERSITY </h2>
                         <small>September 2022 - April 2023</small>
                         <p>
                             <strong>UNDERGRADUATE PROJECT: Yellow means go Faster!</strong><br/>
@@ -97,7 +97,7 @@ function Timeline(){
                 <div className='container right-container'>
                     <img src={process.env.PUBLIC_URL + '/images/TTLogo.png'} alt='mec' />
                     <div className='text-box'>
-                        <h2><i class="fa-solid fa-briefcase"></i>&nbsp;TIPTOP TAILORS </h2>
+                        <h2><i class="fa-solid fa-briefcase"></i>TIPTOP TAILORS </h2>
                         <small>November 2021 - January 2023</small>
                         <p>
                         Served customers in a bustling retail environment by providing attentive assistance and facilitating sales transactions, resulting in increased customer satisfaction and sales revenue.
@@ -116,7 +116,7 @@ function Timeline(){
 
                     <div className='text-box'>
 
-                        <h2><i class="fa-solid fa-briefcase"></i>&nbsp;LAURIER OPTICAL</h2>
+                        <h2><i class="fa-solid fa-briefcase"></i>LAURIER OPTICAL</h2>
                         <small>August 2022 - October 2022</small>
                         <p>
                         Worked with the optometrist to admit patients to them after performing precursory checks, and then sell them a pair of prescription glasses after their appointment.<br/><br/>
@@ -135,7 +135,7 @@ function Timeline(){
                 <div className='container right-container'>
                     <img src={process.env.PUBLIC_URL + '/images/CarletonLogo.jpg'} alt='mec' />
                     <div className='text-box'>
-                        <h2><i class="fa-solid fa-graduation-cap"></i>&nbsp;CARLETON UNIVERSITY </h2>
+                        <h2><i class="fa-solid fa-graduation-cap"></i>CARLETON UNIVERSITY </h2>
                         <small>January 2022 - April 2022</small>
                         <p>
                             <strong>SCHOOL PROJECT: Mini Monkey Survey</strong><br/>
@@ -159,7 +159,7 @@ function Timeline(){
                 <div className='container left-container'>
                     <img src={process.env.PUBLIC_URL + '/images/CarletonLogo.jpg'} alt='mec' />
                     <div className='text-box'>
-                        <h2><i class="fa-solid fa-graduation-cap"></i>&nbsp;CARLETON UNIVERSITY </h2>
+                        <h2><i class="fa-solid fa-graduation-cap"></i>CARLETON UNIVERSITY </h2>
                         <small>January 2021 - April 2021</small>
                         <p>
                             <strong>SCHOOL PROJECT: Real Time Elevator</strong><br/>
@@ -183,7 +183,7 @@ function Timeline(){
                 <div className='container right-container'>
                     <img src={process.env.PUBLIC_URL + '/images/MMRLogo.png'} alt='mec' />
                     <div className='text-box'>
-                        <h2><i class="fa-solid fa-graduation-cap"></i>&nbsp;NASA FIRST ROBOTICS / MM ROBINSON HIGH SCHOOL </h2>
+                        <h2><i class="fa-solid fa-graduation-cap"></i>NASA FIRST ROBOTICS / MM ROBINSON HIGH SCHOOL </h2>
                         <small>2013 - 2017</small>
                         <p>
                             <strong>SCHOOL COURSE: FIRST Robotics Team 2200</strong><br/>
