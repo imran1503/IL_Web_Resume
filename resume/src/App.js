@@ -10,12 +10,20 @@ import contact from './Components/pages/Contact.js';
 function App(){
     return(
       <Router>
+
         <Navbar/>
         <Routes>
-          <Route path='/' Component={Home}/>
+          <Route path='/contact' Component={contact} />
+          <Route path='/experience' Component={Experience} />
+          <Route path='/' Component={Home} />
+          <Route path='/IL_Web_Resume' Component={Home} />
           <Route path="*" Component={Home}/>
-          <Route path='/contact' Component={contact}/>
-          <Route path='/experience' Component={Experience}/>
+
+
+
+
+
+
 
         </Routes>
       </Router>
