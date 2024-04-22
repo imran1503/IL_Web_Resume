@@ -18,13 +18,6 @@ function App(){
           <Route path='/' Component={Home} />
           <Route path='/IL_Web_Resume' Component={Home} />
           <Route path="*" Component={Home}/>
-
-
-
-
-
-
-
         </Routes>
       </Router>
     )
