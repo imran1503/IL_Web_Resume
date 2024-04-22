@@ -5,8 +5,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './Components/pages/home.js';
 import Experience from './Components/pages/Experience.js';
-import contact from './Components/pages/Contact.js';
-
+import contact from './Components/pages/Contact.js';// Test
 function App(){
     return(
       <Router>
