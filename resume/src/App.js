@@ -10,7 +10,6 @@ import contact from './Components/pages/Contact.js';
 function App(){
     return(
       <Router>
-
         <Navbar/>
         <Routes>
           <Route path='/contact' Component={contact} />
