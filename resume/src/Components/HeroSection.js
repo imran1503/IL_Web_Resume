@@ -4,15 +4,38 @@ import './HeroSection.css'
 import '../App.css'
 import { Link } from 'react-router-dom';
 import { Button } from '../Components/Button.js';
+import { useState, useEffect } from 'react'
 
-function HeroSection(){
+function UserWindow() {
+    const [screenSize, getDimension] = useState({
+      dynamicWidth: window.innerWidth,
+      dynamicHeight: window.innerHeight
+    });
+    const setDimension = () => {
+      getDimension({
+        dynamicWidth: window.innerWidth,
+        dynamicHeight: window.innerHeight
+      })
+    }
+
+    useEffect(() => {
+      window.addEventListener('resize', setDimension);
+
+      return(() => {
+          window.removeEventListener('resize', setDimension);
+      })
+    }, [screenSize])
+
+}
+
+function HeroSection() {
     return(
         <div className='hero-container'>
             {/* if you want a video: <video src='' autoPlay loop muted/> */}
             <div className="banner-text">
                 <h1 className='headline'>IMRAN LATIF</h1>
                 <h3 className='subheadline'>
-                    <strong>New software graduate unleashing the potential of tomorrow's tech leaders.<br/>
+                    <strong>Software graduate unleashing the potential of tomorrow's tech leaders.<br/>
                             Where passion meets proficiency in software engineering.
                     </strong>
                 </h3>
@@ -22,8 +45,10 @@ function HeroSection(){
                 >
                     Download my Resume!
                 </Button>
+
             </div>
         </div>
     );
 }
+
 export default HeroSection;
