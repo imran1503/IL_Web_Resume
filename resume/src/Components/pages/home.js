@@ -6,9 +6,12 @@ import ContactForm from '../ContactUs';
 import "../ContactUs.css";
 import ContactMeHeroSection from '../ContactMeHeroSection';
 function Home(){
+
     return(
         <div>
+
             <div className='HeroSection-Home'>
+
                 <HeroSection/>
                 <AboutMe/>
             </div>

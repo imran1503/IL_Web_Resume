@@ -29,18 +29,23 @@
   width: 100%;
 
 }
-
+.flexbox-container_DescRow {
+    display: flex;
+    flex-direction: row;
+}
 .descRow{
-    width:100%;
+    width:50%;
+    margin-left: 10%;
+    position: relative;
 
-    position: static;
 
 }
-.AMCell{
+
+.descRow > p{
+
     color:black;
-    width: 60%;
-    padding-left: 20%;
-    position: static;
+    margin-left: 20%;
+    position: relative;
     text-shadow: 1px;
 
     font-family: "Spectral", serif;
@@ -48,9 +53,9 @@
     font-style: normal;
 
 }
-
 .descRowImg{
-    max-width: 50%;
-    max-height:50%;
+    max-width: 16%;
+    max-height:16%;
+    margin-right: 5%;
     justify-content: center;
 }
